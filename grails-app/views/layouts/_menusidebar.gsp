@@ -11,15 +11,15 @@
 			</div>
             <div class="list-group" >
             	<a class="list-group-item colortitle">Búsqueda</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-search"></span>&nbsp;Búsqueda avanzada</a>
+            	<a href="<g:createLink controller="busqueda" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-search"></span>&nbsp;Búsqueda avanzada</a>
             	<a class="list-group-item colortitle">Categorías</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;Todos los documentos</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Oficios de autorización</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Documentación de Poder</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Documentación de Revocación</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-user"></span>&nbsp;Documentación de Sustentante</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-camera"></span>&nbsp;Fotografías de Sustentante</a>
-            	<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Otros documentos</a>
+            	<a href="<g:createLink controller="documento" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;Todos los documentos</a>
+            	<a href="<g:createLink controller="cnbvDgaOficio" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Oficios de autorización</a>
+            	<a href="<g:createLink controller="documentoPoder" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Documentación de Poder</a>
+            	<a href="<g:createLink controller="documentoRevocacion" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Documentación de Revocación</a>
+            	<a href="<g:createLink controller="documentoSustentante" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-user"></span>&nbsp;Documentación de Sustentante</a>
+            	<a href="<g:createLink controller="fotoSustenante" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-camera"></span>&nbsp;Fotografías de Sustentante</a>
+            	<a href="<g:createLink controller="documentoGenerico" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Otros documentos</a>
             	<a class="list-group-item colortitle">Acciones</a>
                 <a href="#" class="list-group-item"><span class="glyphicon glyphicon-user"></span>&nbsp;Información de usuario</a>
                 <a href="#" class="list-group-item"><span class="glyphicon glyphicon-cog"></span>&nbsp;Cambio de contraseña</a>
