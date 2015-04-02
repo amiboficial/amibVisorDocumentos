@@ -18,7 +18,7 @@
             	<a href="<g:createLink controller="documentoPoder" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Documentación de Poder</a>
             	<a href="<g:createLink controller="documentoRevocacion" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Documentación de Revocación</a>
             	<a href="<g:createLink controller="documentoSustentante" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-user"></span>&nbsp;Documentación de Sustentante</a>
-            	<a href="<g:createLink controller="fotoSustenante" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-camera"></span>&nbsp;Fotografías de Sustentante</a>
+            	<a href="<g:createLink controller="fotoSustentante" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-camera"></span>&nbsp;Fotografías de Sustentante</a>
             	<a href="<g:createLink controller="documentoGenerico" action="index" />" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Otros documentos</a>
             	<a class="list-group-item colortitle">Acciones</a>
                 <a href="#" class="list-group-item"><span class="glyphicon glyphicon-user"></span>&nbsp;Información de usuario</a>

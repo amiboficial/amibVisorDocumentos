@@ -3,15 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="layout" content="main"/>
-<title>Documentos 0.1 - Todos los documentos</title>
+<title>Documentos 0.1 - Documentación de revocación</title>
 </head>
 <body>
 	<a id="anchorForm"></a>
 	<ul class="breadcrumb">
 		<li><a href="#">Categorías</a><span class="divider"></span></li>
-		<li><a href="#">Todos los documentos</a></li>
+		<li><a href="#">Documentación de revocación</a></li>
 	</ul>
-	<h2><strong>Todos los documentos</strong></h2>
+	<h2><strong>Documentación de revocación</strong></h2>
 	
 	<g:if test="${flash.message}">
 		<div class="alert alert-info"><span class="glyphicon glyphicon-info-sign"></span> ${flash.message}</div>
